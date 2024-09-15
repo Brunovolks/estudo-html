@@ -1,63 +1,52 @@
-
 <! doctype html>
 
-	<html>
-		
-<head>
-	<title>Formulários</title>
-	<meta charset="utf-8">
+<html>
+  <head>
+    <title>Formulários</title>
+    <meta charset="utf-8" />
+  </head>
 
-</head>
+  <body>
+    <h1>Formulários</h1>
+    <form>
+      Login:<br />
+      <input type="text" name="Login" /><br />
 
+      Senha:<br />
+      <input type="password" name="Senha" /><br /><br />
 
-<body>
-      <h1>Formulários</h1>
+      <input type="submit" value="Login" />
+
+      <br /><br />
+
+      <h1>Cadastre-se</h1>
       <form>
-            Login:<br/>
-            <input type="text" name="Login" /><br />
-            
-            Senha:<br/>
-            <input type="password" name="Senha" /><br /><br />
+        Nome:<br />
+        <input type="text" /><br />
+        <input type="radio" name="sexo" />Masculino<br />
+        <input type="radio" name="sexo" />Feminino<br />
 
-            <input type="submit" value="Login" />
+        Interesses:<br />
+        <input type="checkbox" /> Futebol<br />
+        <input type="checkbox" /> Cursos<br />
+        <input type="checkbox" /> Eletronicos<br />
 
-            <br /><br />
+        Estado:<br />
+        <select>
+          <option>SP</option>
+          <option>RN</option>
+          <option>MG</option>
+          <option>RJ</option>
+          <option>AM</option>
+        </select>
+        <br />
 
-            <h1>Cadastre-se</h1>
-            <form>
-                  Nome:<br/>
-            <input type="text" /><br />
-            <input type="radio" name="sexo"/>Masculino<br />
-            <input type="radio" name="sexo"/>Feminino<br />
+        Observações:<br />
+        <textarea></textarea>
+        <br />
 
-            Interesses:<br />
-            <input type="checkbox"> Futebol<br />
-            <input type="checkbox"> Cursos<br />
-            <input type="checkbox"> Eletronicos<br />
-
-            Estado:<br />
-            <select>
-                  <option>SP</option>
-                  <option>RN</option>
-                  <option>MG</option>
-                  <option>RJ</option>
-            </select>
-            <br />
-
-            Observações:<br />
-            <textarea></textarea>
-            <br />
-
-
-            <input type="submit"value="Cadastrar"/>
-
-            </form>
-
-
+        <input type="submit" value="Cadastrar" />
       </form>
-      
-                 
-
-</body>
-
-	</html>
+    </form>
+  </body>
+</html>
